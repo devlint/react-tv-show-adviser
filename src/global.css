@@ -1,0 +1,18 @@
+:root{
+    font-size: 62.5%;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: Maximum Impact;
+    font-size: 1.6rem;
+}
+
+::-webkit-scrollbar{
+    background-color: transparent;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb:horizontal{
+    background-color: rgba(193, 36, 36, 0.61);
+    border-radius: 4px;
+}

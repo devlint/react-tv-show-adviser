@@ -1,0 +1,27 @@
+.title{
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.rating_container{
+  display: flex;
+  align-items: center;
+}
+
+.rating{
+  margin-left: 5px;
+}
+
+.overview{
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 1rem;
+  display: -webkit-box; 
+  -webkit-box-orient: vertical; 
+  -webkit-line-clamp: 3; 
+  overflow: hidden;
+}
+.overview:hover{
+  -webkit-line-clamp: unset;
+}
